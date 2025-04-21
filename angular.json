@@ -24,12 +24,15 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/assets"
             ],
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [							
+              "src/assets/js/bootstrap/bootstrap.bundle.min.js"
+          ],
             "server": "src/main.server.ts",
             "outputMode": "server",
             "ssr": {
@@ -92,10 +95,16 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [							
+              "src/assets/js/bootstrap/bootstrap.bundle.min.js"
+          ]
+            
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "c883a35e-d2bc-48f1-933a-c586222a697e"
   }
 }

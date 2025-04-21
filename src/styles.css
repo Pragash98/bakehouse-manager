@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+.page-content {
+	max-height: 93.5vh;
+}
+
+.adjecent_content {}
+
+@media (min-width: 992px) {
+	.adjecent_content {
+		margin-left: calc(var(--spacer) * 2 + var(--icon-font-size));
+	}
+}
+
+.login_page_content {
+	max-height: 100vh !important;
+}
+
+.cursor_pointer {
+	cursor: pointer;
+}
+
+.navbar-theme-color {
+	background-color: rgb(2, 37, 114);
+	color: white;
+}
+
+.navbar-theme-color1 {
+	color: white;
+}
